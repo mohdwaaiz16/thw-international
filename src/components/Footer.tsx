@@ -17,16 +17,16 @@ export const Footer: React.FC = () => {
   ];
 
   const targetKeywords = [
-    'Premium Leather Manufacturer India',
+    'Genuine Leather Manufacturer India',
     'Goat Finished Leather Manufacturer',
     'Sheep Finished Leather Exporter',
-    'Leather Manufacturer Tamil Nadu',
+    'Leather Skins Manufacturer Tamil Nadu',
     'Leather Export Company India',
-    'Leather Supplier India',
-    'Leather for Footwear',
-    'Leather for Bags',
-    'Finished Leather Factory',
-    'Leather Exporters Vaniyambadi'
+    'Genuine Leather Supplier India',
+    'Goat Leather for Footwear',
+    'Sheep Leather for Bags',
+    'Finished Leather Factory Vaniyambadi',
+    'Leather Exporters Tamil Nadu'
   ];
 
   return (
@@ -68,7 +68,7 @@ export const Footer: React.FC = () => {
               THW International
             </h4>
             <p className="text-sm md:text-base leading-relaxed text-slate-400 font-light max-w-xl">
-              Integrated Leather Manufacturing Excellence since 2004. Based in Vaniyambadi, Tamil Nadu (India), specializing in global B2B export of high-grade finished goat and sheep leather for footwear, apparel, and leather goods.
+              Integrated 100% Genuine Leather Manufacturing Excellence since 2004. Based in Vaniyambadi, Tamil Nadu (India), specializing in global B2B export of high-grade finished goat and sheep leather skins for footwear, apparel, and leather goods.
             </p>
           </div>
 

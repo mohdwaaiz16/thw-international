@@ -15,9 +15,9 @@ export const ManufacturingSection: React.FC = () => {
     {
       step: '01',
       num: '01 / 07',
-      title: 'Raw Hide Receiving & Grading',
+      title: 'Raw Skin Receiving & Grading',
       subtitle: 'Raw Material Selection',
-      description: 'Strict sorting of top-tier Indian goat & sheep raw skins, assessing grain integrity, square footage yield, and hide weight.',
+      description: 'Strict sorting of top-tier Indian goat & sheep raw skins, assessing grain integrity, square footage yield, and raw skin weight.',
       techDetail: '100% Traceability & Origin Inspection'
     },
     {
@@ -31,9 +31,9 @@ export const ManufacturingSection: React.FC = () => {
     {
       step: '03',
       num: '03 / 07',
-      title: 'Precision Retanning & Splitting',
+      title: 'Precision Retanning & Calibration',
       subtitle: 'Substance & Temper Calibration',
-      description: 'Splitting and shaving hides to exact thickness (0.6mm - 1.6mm) while nourishing fibers for uniform suppleness and temper.',
+      description: 'Shaving and calibrating goat & sheep raw skins to exact thickness (0.6mm - 1.6mm) while nourishing fibers for uniform suppleness and temper.',
       techDetail: 'Micro-Calibrated Splitting Machines'
     },
     {
@@ -41,7 +41,7 @@ export const ManufacturingSection: React.FC = () => {
       num: '04 / 07',
       title: 'Custom Drum Dyeing & Fatliquoring',
       subtitle: 'Deep Penetration Coloration',
-      description: 'Penetrative aniline dyeing ensuring vibrant hue fastness throughout hide cross-sections, complemented by rich oils.',
+      description: 'Penetrative aniline dyeing ensuring vibrant hue fastness throughout skin cross-sections, complemented by rich oils.',
       techDetail: 'Spectrophotometer Color Matching'
     },
     {
@@ -57,7 +57,7 @@ export const ManufacturingSection: React.FC = () => {
       num: '06 / 07',
       title: 'Rigorous Quality Inspection',
       subtitle: 'Physical & Chemical Testing',
-      description: 'Every finished hide undergoes lightfastness, rub-fastness, tensile strength, and ISO chemical safety testing under darkroom lamps.',
+      description: 'Every finished skin undergoes lightfastness, rub-fastness, tensile strength, and ISO chemical safety testing under darkroom lamps.',
       techDetail: 'REACH Compliance Certified'
     },
     {
@@ -65,7 +65,7 @@ export const ManufacturingSection: React.FC = () => {
       num: '07 / 07',
       title: 'Export Air-Tight Packing & Shipping',
       subtitle: 'Global Dispatch Readiness',
-      description: 'Conditioned hides are roll-packed in moisture-proof protective wrapping and palleted for sea and air export to 30+ countries.',
+      description: 'Conditioned skins are roll-packed in moisture-proof protective wrapping and palleted for sea and air export to 30+ countries.',
       techDetail: 'Barcoded Roll Tracking & Moisture Control'
     }
   ];
@@ -87,7 +87,7 @@ export const ManufacturingSection: React.FC = () => {
             THE 7-STAGE <span className="text-gold-shimmer font-italic">MANUFACTURING PROCESS</span>
           </h2>
           <p className="text-slate-400 text-xs sm:text-sm tracking-widest uppercase font-light">
-            From Raw Indian Goat & Sheep Skins to Finished International Leather.
+            From Raw Indian Goat & Sheep Skins to 100% Genuine Finished International Leather.
           </p>
         </div>
 

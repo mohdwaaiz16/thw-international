@@ -159,7 +159,7 @@ export const ProductsSection: React.FC = () => {
 
     const messageText = `*NEW INQUIRY - THW INTERNATIONAL*
 ----------------------------------------
-*Category:* ${selectedProduct?.category || 'Finished Leather'}
+*Category:* ${selectedProduct?.category || '100% Genuine Finished Leather Skin'}
 *Company / Brand:* ${modalForm.company}
 *Work Email:* ${modalForm.email}
 *Country:* ${modalForm.country}
@@ -199,10 +199,10 @@ export const ProductsSection: React.FC = () => {
             <span>GLOBAL PRODUCT CATALOG</span>
           </div>
           <h2 className="text-4xl md:text-6xl font-serif text-white">
-            PREMIUM LEATHER <span className="text-gold-shimmer font-italic">COLLECTIONS</span>
+            100% GENUINE LEATHER <span className="text-gold-shimmer font-italic">COLLECTIONS</span>
           </h2>
           <p className="text-slate-400 text-xs sm:text-sm tracking-widest uppercase font-light">
-            Engineered in Vaniyambadi for International Footwear, Garments & Luxury Goods Manufacturers.
+            Crafted in Vaniyambadi from Premium Raw Goat & Sheep Skins for International Footwear, Garments & Goods Manufacturers.
           </p>
         </div>
 
@@ -292,7 +292,7 @@ export const ProductsSection: React.FC = () => {
                     <span>International Swatch Order</span>
                   </div>
                   <h3 className="text-2xl font-serif text-white">
-                    Request Leather Sample
+                    Request Genuine Leather Sample
                   </h3>
                   <p className="text-xs text-slate-400">
                     Category: <span className="text-[#C8A45A] font-semibold">{selectedProduct.category}</span>
