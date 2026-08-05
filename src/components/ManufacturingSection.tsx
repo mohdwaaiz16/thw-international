@@ -15,9 +15,9 @@ export const ManufacturingSection: React.FC = () => {
     {
       step: '01',
       num: '01 / 07',
-      title: 'Raw Skin Receiving & Grading',
+      title: 'Raw Goat & Sheep Skin Grading',
       subtitle: 'Raw Material Selection',
-      description: 'Strict sorting of top-tier Indian goat & sheep raw skins, assessing grain integrity, square footage yield, and raw skin weight.',
+      description: 'Strict manual sorting of premium Indian goat and sheep raw skins, inspecting natural grain structure, thickness, and square footage yield.',
       techDetail: '100% Traceability & Origin Inspection'
     },
     {
@@ -25,7 +25,7 @@ export const ManufacturingSection: React.FC = () => {
       num: '02 / 07',
       title: 'Eco-Friendly Tanning Process',
       subtitle: 'Primary Tannage Stabilization',
-      description: 'Stabilizing raw collagen matrix using LWG-compliant vegetable tannins or chrome-free tanning formulations in automated wooden drums.',
+      description: 'Stabilizing raw collagen matrices of goat and sheep skins using LWG-compliant vegetable tannins or chrome-free formulations in automated wooden drums.',
       techDetail: 'pH & Temperature Controlled Drums'
     },
     {
@@ -33,7 +33,7 @@ export const ManufacturingSection: React.FC = () => {
       num: '03 / 07',
       title: 'Precision Retanning & Calibration',
       subtitle: 'Substance & Temper Calibration',
-      description: 'Shaving and calibrating goat & sheep raw skins to exact thickness (0.6mm - 1.6mm) while nourishing fibers for uniform suppleness and temper.',
+      description: 'Precision shaving and substance calibration of genuine goat and sheep skins to exact buyer specifications (0.6mm - 1.6mm).',
       techDetail: 'Micro-Calibrated Splitting Machines'
     },
     {
@@ -41,7 +41,7 @@ export const ManufacturingSection: React.FC = () => {
       num: '04 / 07',
       title: 'Custom Drum Dyeing & Fatliquoring',
       subtitle: 'Deep Penetration Coloration',
-      description: 'Penetrative aniline dyeing ensuring vibrant hue fastness throughout skin cross-sections, complemented by rich oils.',
+      description: 'Deep penetrative drum dyeing ensuring vibrant color fastness throughout genuine goat and sheep skin cross-sections.',
       techDetail: 'Spectrophotometer Color Matching'
     },
     {
@@ -49,7 +49,7 @@ export const ManufacturingSection: React.FC = () => {
       num: '05 / 07',
       title: 'Artisanal Surface Finishing',
       subtitle: 'Sheen, Grain & Patina Artistry',
-      description: 'Applying protective topcoats, silk-touch feelers, crackle foils, or hand-burnished patinas tailored to client buyer specs.',
+      description: 'Applying protective silk-touch feelers, crackle foils, or hand-burnished patinas to genuine goat and sheep finished skins.',
       techDetail: 'Hydraulic Embossing & Spray Lines'
     },
     {
@@ -57,7 +57,7 @@ export const ManufacturingSection: React.FC = () => {
       num: '06 / 07',
       title: 'Rigorous Quality Inspection',
       subtitle: 'Physical & Chemical Testing',
-      description: 'Every finished skin undergoes lightfastness, rub-fastness, tensile strength, and ISO chemical safety testing under darkroom lamps.',
+      description: 'Every genuine finished goat and sheep skin undergoes tensile strength, rub-fastness, and ISO chemical safety testing under darkroom lamps.',
       techDetail: 'REACH Compliance Certified'
     },
     {
@@ -65,7 +65,7 @@ export const ManufacturingSection: React.FC = () => {
       num: '07 / 07',
       title: 'Export Air-Tight Packing & Shipping',
       subtitle: 'Global Dispatch Readiness',
-      description: 'Conditioned skins are roll-packed in moisture-proof protective wrapping and palleted for sea and air export to 30+ countries.',
+      description: 'Conditioned genuine goat and sheep skins are roll-packed in moisture-proof protective wrapping for export to 30+ countries.',
       techDetail: 'Barcoded Roll Tracking & Moisture Control'
     }
   ];
@@ -87,7 +87,7 @@ export const ManufacturingSection: React.FC = () => {
             THE 7-STAGE <span className="text-gold-shimmer font-italic">MANUFACTURING PROCESS</span>
           </h2>
           <p className="text-slate-400 text-xs sm:text-sm tracking-widest uppercase font-light">
-            From Raw Indian Goat & Sheep Skins to 100% Genuine Finished International Leather.
+            Exclusively 100% Genuine Goat & Sheep Raw Skins Processed to International Standards.
           </p>
         </div>
 
