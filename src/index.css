@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-gold: #C8A45A;
+    --color-gold-light: #DFB76C;
+    --color-gold-dark: #8A6B29;
+    --color-matte-black: #0E0E0E;
+    --color-charcoal: #1B1B1B;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0E0E0E;
+    color: #F3F4F6;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0E0E0E;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C8A45A;
+}
+
+/* Luxury Shimmer Text Effect */
+.text-gold-shimmer {
+  background: linear-gradient(135deg, #FFF0C3 0%, #C8A45A 35%, #F0D492 50%, #8A6B29 80%, #C8A45A 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldShimmer 6s linear infinite;
+}
+
+@keyframes goldShimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* High-Performance Smooth Glass Cards */
+.glass-luxury {
+  background: #141414;
+  border: 1px solid rgba(200, 164, 90, 0.18);
+  transform: translateZ(0);
+}
+
+.glass-luxury-hover {
+  transition: transform 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+  will-change: transform;
+}
+
+.glass-luxury-hover:hover {
+  background: #1A1A1A;
+  border-color: rgba(200, 164, 90, 0.45);
+  transform: translateY(-3px);
+}
+
+/* Infinite Marquee Animation - Silky 60 FPS GPU Motion */
+@keyframes marqueeSlow {
+  0% { transform: translate3d(0%, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+.animate-marquee-slow {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  animation: marqueeSlow 70s linear infinite;
+}
+
+.animate-marquee-slow:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marqueeReverse {
+  0% { transform: translate3d(-50%, 0, 0); }
+  100% { transform: translate3d(0%, 0, 0); }
+}
+
+.animate-marquee-reverse {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  animation: marqueeReverse 75s linear infinite;
+}
+
+.animate-marquee-reverse:hover {
+  animation-play-state: paused;
+}
+
+/* Custom Leather Background Grid */
+.bg-leather-pattern {
+  background-image: radial-gradient(rgba(200, 164, 90, 0.08) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
