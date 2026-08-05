@@ -15,7 +15,7 @@ export const ManufacturingSection: React.FC = () => {
     {
       step: '01',
       num: '01 / 07',
-      title: 'Raw Goat & Sheep Skin Grading',
+      title: 'Raw Skin Grading',
       subtitle: 'Raw Material Selection',
       description: 'Strict manual sorting of premium Indian goat and sheep raw skins, inspecting natural grain structure, thickness, and square footage yield.',
       techDetail: '100% Traceability & Origin Inspection'
