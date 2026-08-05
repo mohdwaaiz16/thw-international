@@ -69,7 +69,7 @@ export const AboutSection: React.FC = () => {
             {/* Tannery Skins Image Card */}
             <div className="relative h-64 rounded-3xl overflow-hidden glass-luxury p-2 border border-[#C8A45A]/20 group">
               <img
-                src="/assets/images/tannery-hides.jpg"
+                src="/assets/images/tannery-skins.jpg"
                 alt="THW Hanging Finished Leather Skins"
                 className="w-full h-full object-cover rounded-2xl filter brightness-90 transform group-hover:scale-105 transition-transform duration-700"
               />

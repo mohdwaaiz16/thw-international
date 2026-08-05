@@ -45,7 +45,7 @@ export const SustainabilitySection: React.FC = () => {
         <div className="relative rounded-3xl overflow-hidden glass-luxury p-3 border border-[#C8A45A]/30 mb-16 shadow-2xl">
           <div className="relative h-80 md:h-[400px] rounded-2xl overflow-hidden">
             <img
-              src="/assets/images/tannery-hides.jpg"
+              src="/assets/images/tannery-skins.jpg"
               alt="Sustainable Tannery Air Drying Facility"
               className="w-full h-full object-cover filter brightness-90 contrast-110"
             />
