@@ -4,23 +4,24 @@ import { motion } from 'framer-motion';
 export const AnNassrPage: React.FC = () => {
   return (
     <main className="bg-[#0E0E0E] min-h-screen">
-      {/* 1. Hero Section */}
-      <section className="relative w-full h-screen flex flex-col justify-center items-center overflow-hidden">
+      {/* 1. Hero Image Section */}
+      <section className="relative w-full h-screen sm:h-[80vh] flex flex-col justify-center items-center overflow-hidden">
         {/* Background Images */}
         <picture className="absolute inset-0 z-0">
           <source media="(min-width: 768px)" srcSet="/assets/images/an-nassr-desktop.jpg" />
           <img
             src="/assets/images/an-nassr-mobile.jpg"
             alt="AN NASSR ENTREPRENEUR Leather Background"
-            className="w-full h-full object-cover object-center filter brightness-90 contrast-105"
+            className="w-full h-full object-cover object-center"
           />
         </picture>
-        
-        {/* Subtle Dark Gradient Overlay for readability while keeping logo visible */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0E0E0E] via-[#0E0E0E]/40 to-transparent opacity-80 pointer-events-none z-0" />
+        {/* Fade into the next section */}
+        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#0E0E0E] to-transparent z-10" />
+      </section>
 
-        {/* Hero Content */}
-        <div className="relative z-10 flex flex-col items-center text-center px-6 md:px-12 mt-32 md:mt-48 max-w-4xl">
+      {/* 1b. Hero Text Section */}
+      <section className="py-20 px-6 md:px-12 flex flex-col items-center text-center bg-[#0E0E0E] z-20 relative -mt-10">
+        <div className="max-w-4xl flex flex-col items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -34,7 +35,7 @@ export const AnNassrPage: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-            className="text-4xl md:text-6xl font-serif text-white tracking-widest mb-6 drop-shadow-lg"
+            className="text-4xl md:text-6xl font-serif text-white tracking-widest mb-6"
           >
             AN NASSR ENTREPRENEUR
           </motion.h1>
@@ -164,13 +165,13 @@ export const AnNassrPage: React.FC = () => {
         
         <div className="grid md:grid-cols-2 gap-12">
           {/* AN NASSR Details */}
-          <div className="bg-[#141414] p-10 rounded-sm border border-white/5">
-            <h3 className="text-xl font-serif text-[#C8A45A] mb-8 tracking-wider uppercase">AN NASSR ENTREPRENEUR</h3>
+          <div className="bg-[#141414] p-10 rounded-sm border border-white/5 hover:border-[#C8A45A]/40 hover:shadow-[0_10px_40px_rgba(200,164,90,0.08)] hover:-translate-y-2 transition-all duration-500 cursor-pointer group">
+            <h3 className="text-xl font-serif text-[#C8A45A] mb-8 tracking-wider uppercase group-hover:text-white transition-colors duration-500">AN NASSR ENTREPRENEUR</h3>
             
             <div className="space-y-6">
               <div>
                 <span className="block text-xs uppercase tracking-widest text-slate-500 mb-2">Address</span>
-                <p className="text-slate-300 font-light text-sm leading-relaxed">
+                <p className="text-slate-300 font-light text-sm leading-relaxed group-hover:text-white transition-colors duration-300">
                   236, Trunk Road, Valayampet,<br />
                   Vaniyambadi – 635752.<br />
                   Tirupattur District, Tamilnadu.
@@ -193,7 +194,7 @@ export const AnNassrPage: React.FC = () => {
               
               <div>
                 <span className="block text-xs uppercase tracking-widest text-slate-500 mb-2">GSTIN</span>
-                <p className="text-white font-mono text-sm bg-white/5 inline-block px-3 py-1 rounded-sm border border-white/10">
+                <p className="text-white font-mono text-sm bg-white/5 inline-block px-3 py-1 rounded-sm border border-white/10 group-hover:border-[#C8A45A]/30 transition-colors duration-500">
                   33AARPW3796L1ZN
                 </p>
               </div>
@@ -201,13 +202,13 @@ export const AnNassrPage: React.FC = () => {
           </div>
 
           {/* THW Details */}
-          <div className="bg-[#141414] p-10 rounded-sm border border-white/5">
-            <h3 className="text-xl font-serif text-[#C8A45A] mb-8 tracking-wider uppercase">THW INTERNATIONAL</h3>
+          <div className="bg-[#141414] p-10 rounded-sm border border-white/5 hover:border-[#C8A45A]/40 hover:shadow-[0_10px_40px_rgba(200,164,90,0.08)] hover:-translate-y-2 transition-all duration-500 cursor-pointer group">
+            <h3 className="text-xl font-serif text-[#C8A45A] mb-8 tracking-wider uppercase group-hover:text-white transition-colors duration-500">THW INTERNATIONAL</h3>
             
             <div className="space-y-6">
               <div>
                 <span className="block text-xs uppercase tracking-widest text-slate-500 mb-2">Address</span>
-                <p className="text-slate-300 font-light text-sm leading-relaxed">
+                <p className="text-slate-300 font-light text-sm leading-relaxed group-hover:text-white transition-colors duration-300">
                   123/ N, Valayampet, opp. Vanitec, Valayambattu,<br />
                   Vaniyambadi – 635751.<br />
                   Tamil Nadu, India.
@@ -216,11 +217,11 @@ export const AnNassrPage: React.FC = () => {
               
               <div>
                 <span className="block text-xs uppercase tracking-widest text-slate-500 mb-2">GSTIN</span>
-                <p className="text-white font-mono text-sm bg-white/5 inline-block px-3 py-1 rounded-sm border border-white/10">
+                <p className="text-white font-mono text-sm bg-white/5 inline-block px-3 py-1 rounded-sm border border-white/10 group-hover:border-[#C8A45A]/30 transition-colors duration-500">
                   33AEEPT9601L1ZV
                 </p>
               </div>
-              <p className="text-xs text-slate-500 mt-4 italic">
+              <p className="text-xs text-slate-500 mt-4 italic group-hover:text-slate-400 transition-colors duration-300">
                 * Note: THW GSTIN is displayed for association reference.
               </p>
             </div>
