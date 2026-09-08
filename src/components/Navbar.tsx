@@ -95,7 +95,7 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Drawer Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden fixed inset-x-0 top-full bg-[#0E0E0E]/98 border-b border-[#C8A45A]/30 p-6 shadow-2xl flex flex-col space-y-5 animate-fadeIn">
+        <div className="lg:hidden absolute inset-x-0 top-full bg-[#0E0E0E]/98 border-b border-[#C8A45A]/30 p-6 shadow-2xl flex flex-col space-y-5 animate-fadeIn">
           <div className="flex flex-col space-y-3">
             {navLinks.map((link) => {
               const isActive = !link.isHash && location.pathname === link.href;
