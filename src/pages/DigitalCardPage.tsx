@@ -128,7 +128,7 @@ export const DigitalCardPage: React.FC = () => {
           </div>
 
           {/* Action Buttons */}
-          <div className="grid grid-cols-4 gap-3 mb-4 mt-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4 mt-auto">
             <a href="tel:+919442627480" className="flex flex-col items-center justify-center py-3 bg-[#0A0A0A] border border-[#C8A45A]/40 rounded-lg text-[#C8A45A] hover:bg-[#C8A45A] hover:text-[#000] hover:shadow-[0_0_15px_rgba(200,164,90,0.4)] transition-all duration-300 group/btn">
               <Phone className="w-5 h-5 mb-1.5 group-hover/btn:-translate-y-0.5 transition-transform" />
               <span className="text-[10px] uppercase tracking-wider font-semibold">Call</span>
@@ -207,7 +207,7 @@ export const DigitalCardPage: React.FC = () => {
           </div>
 
           {/* Action Buttons */}
-          <div className="grid grid-cols-4 gap-3 mb-4 mt-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4 mt-auto">
             <a href="tel:+919487227807" className="flex flex-col items-center justify-center py-3 bg-[#0A0A0A] border border-[#C8A45A]/40 rounded-lg text-[#C8A45A] hover:bg-[#C8A45A] hover:text-[#000] hover:shadow-[0_0_15px_rgba(200,164,90,0.4)] transition-all duration-300 group/btn">
               <Phone className="w-5 h-5 mb-1.5 group-hover/btn:-translate-y-0.5 transition-transform" />
               <span className="text-[10px] uppercase tracking-wider font-semibold">Call</span>
