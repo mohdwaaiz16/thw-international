@@ -36,9 +36,9 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
       <div className="absolute inset-0 bg-leather-pattern opacity-40" />
       
       {/* Top Header Stamp */}
-      <div className="relative z-10 w-full flex justify-between items-center text-xs tracking-[0.3em] text-[#C8A45A]/70 uppercase">
+      <div className="relative z-10 w-full flex flex-col md:flex-row justify-between items-center text-[10px] md:text-xs tracking-[0.3em] text-[#C8A45A]/70 uppercase gap-2">
         <span>Vaniyambadi • Tamil Nadu</span>
-        <span>Est. 2004</span>
+        <span className="hidden md:inline">Est. 2004</span>
       </div>
 
       {/* Main Center Logo & Progress Reveal */}
@@ -51,11 +51,11 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
         </div>
 
         {/* Loading Message */}
-        <div className="text-center space-y-2">
-          <p className="font-serif text-lg md:text-xl tracking-widest text-slate-200">
+        <div className="text-center space-y-2 px-4">
+          <p className="font-serif text-sm md:text-xl tracking-widest text-slate-200 leading-relaxed">
             INTEGRATED LEATHER MANUFACTURING EXCELLENCE
           </p>
-          <p className="text-xs tracking-[0.4em] text-[#C8A45A] uppercase font-light">
+          <p className="text-[10px] md:text-xs tracking-[0.2em] md:tracking-[0.4em] text-[#C8A45A] uppercase font-light">
             Crafting Luxury Finished Goat & Sheep Leather
           </p>
         </div>
@@ -76,9 +76,9 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
       </div>
 
       {/* Bottom Footer Details */}
-      <div className="relative z-10 text-[11px] tracking-[0.25em] text-slate-500 uppercase flex items-center gap-6">
+      <div className="relative z-10 text-[9px] md:text-[11px] tracking-[0.2em] md:tracking-[0.25em] text-slate-500 uppercase flex flex-col md:flex-row items-center gap-2 md:gap-6 text-center">
         <span>LWG Gold Certified Standard</span>
-        <span>•</span>
+        <span className="hidden md:inline">•</span>
         <span>Global Export Network</span>
       </div>
     </div>

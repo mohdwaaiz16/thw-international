@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, Globe, MapPin, Briefcase, Download, FileText, Shirt, ShoppingBag, Hand } from 'lucide-react';
+import { Phone, Mail, Globe, MapPin, Briefcase, Download, FileText, Shirt, ShoppingBag, Hand, MessageCircle } from 'lucide-react';
 
 // --- Types ---
 interface ContactInfo {
@@ -91,7 +91,7 @@ export const DigitalCardPage: React.FC = () => {
 
           {/* Contact Person */}
           <div className="mb-8 text-center">
-            <h3 className="text-[#C8A45A] text-xl font-serif drop-shadow-sm mb-1">PM Abdul Wajid</h3>
+            <h3 className="text-[#C8A45A] text-2xl md:text-3xl font-serif drop-shadow-sm mb-1 uppercase font-bold tracking-wider">PM ABDUL WAJID</h3>
           </div>
 
           {/* Business Details */}
@@ -128,10 +128,14 @@ export const DigitalCardPage: React.FC = () => {
           </div>
 
           {/* Action Buttons */}
-          <div className="grid grid-cols-3 gap-3 mb-4 mt-auto">
+          <div className="grid grid-cols-4 gap-3 mb-4 mt-auto">
             <a href="tel:+919442627480" className="flex flex-col items-center justify-center py-3 bg-[#0A0A0A] border border-[#C8A45A]/40 rounded-lg text-[#C8A45A] hover:bg-[#C8A45A] hover:text-[#000] hover:shadow-[0_0_15px_rgba(200,164,90,0.4)] transition-all duration-300 group/btn">
               <Phone className="w-5 h-5 mb-1.5 group-hover/btn:-translate-y-0.5 transition-transform" />
               <span className="text-[10px] uppercase tracking-wider font-semibold">Call</span>
+            </a>
+            <a href="https://wa.me/919442627480?text=Hi,%20I%20came%20across%20your%20business%20and%20would%20love%20to%20connect." target="_blank" rel="noreferrer" className="flex flex-col items-center justify-center py-3 bg-[#0A0A0A] border border-[#C8A45A]/40 rounded-lg text-[#C8A45A] hover:bg-[#C8A45A] hover:text-[#000] hover:shadow-[0_0_15px_rgba(200,164,90,0.4)] transition-all duration-300 group/btn">
+              <MessageCircle className="w-5 h-5 mb-1.5 group-hover/btn:-translate-y-0.5 transition-transform" />
+              <span className="text-[10px] uppercase tracking-wider font-semibold">WhatsApp</span>
             </a>
             <a href="mailto:thw.international@gmail.com" className="flex flex-col items-center justify-center py-3 bg-[#0A0A0A] border border-[#C8A45A]/40 rounded-lg text-[#C8A45A] hover:bg-[#C8A45A] hover:text-[#000] hover:shadow-[0_0_15px_rgba(200,164,90,0.4)] transition-all duration-300 group/btn">
               <Mail className="w-5 h-5 mb-1.5 group-hover/btn:-translate-y-0.5 transition-transform" />
@@ -203,10 +207,14 @@ export const DigitalCardPage: React.FC = () => {
           </div>
 
           {/* Action Buttons */}
-          <div className="grid grid-cols-3 gap-3 mb-4 mt-auto">
+          <div className="grid grid-cols-4 gap-3 mb-4 mt-auto">
             <a href="tel:+919487227807" className="flex flex-col items-center justify-center py-3 bg-[#0A0A0A] border border-[#C8A45A]/40 rounded-lg text-[#C8A45A] hover:bg-[#C8A45A] hover:text-[#000] hover:shadow-[0_0_15px_rgba(200,164,90,0.4)] transition-all duration-300 group/btn">
               <Phone className="w-5 h-5 mb-1.5 group-hover/btn:-translate-y-0.5 transition-transform" />
               <span className="text-[10px] uppercase tracking-wider font-semibold">Call</span>
+            </a>
+            <a href="https://wa.me/919487227807?text=Hi,%20I%20came%20across%20your%20business%20and%20would%20love%20to%20connect." target="_blank" rel="noreferrer" className="flex flex-col items-center justify-center py-3 bg-[#0A0A0A] border border-[#C8A45A]/40 rounded-lg text-[#C8A45A] hover:bg-[#C8A45A] hover:text-[#000] hover:shadow-[0_0_15px_rgba(200,164,90,0.4)] transition-all duration-300 group/btn">
+              <MessageCircle className="w-5 h-5 mb-1.5 group-hover/btn:-translate-y-0.5 transition-transform" />
+              <span className="text-[10px] uppercase tracking-wider font-semibold">WhatsApp</span>
             </a>
             <a href="mailto:annassrentrepreneur24@gmail.com" className="flex flex-col items-center justify-center py-3 bg-[#0A0A0A] border border-[#C8A45A]/40 rounded-lg text-[#C8A45A] hover:bg-[#C8A45A] hover:text-[#000] hover:shadow-[0_0_15px_rgba(200,164,90,0.4)] transition-all duration-300 group/btn">
               <Mail className="w-5 h-5 mb-1.5 group-hover/btn:-translate-y-0.5 transition-transform" />
