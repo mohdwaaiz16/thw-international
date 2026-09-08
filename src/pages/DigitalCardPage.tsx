@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, Globe, MapPin, Briefcase, Download, FileText, Shirt, ShoppingBag, Hand, MessageCircle } from 'lucide-react';
+import { Phone, Mail, Globe, MapPin, Briefcase, Download, FileText, Shirt, Footprints, Hand, MessageCircle } from 'lucide-react';
 
 // --- Types ---
 interface ContactInfo {
@@ -99,8 +99,8 @@ export const DigitalCardPage: React.FC = () => {
             <div>
               <p className="text-[10px] uppercase tracking-widest text-slate-500 mb-3 font-semibold text-center">Manufacturers of Finished Leather for:</p>
               <div className="flex flex-wrap justify-center gap-4 text-sm text-slate-300 font-light">
-                <span className="flex items-center gap-1.5"><Shirt className="w-4 h-4 text-[#C8A45A]" /> Shoes</span>
-                <span className="flex items-center gap-1.5"><ShoppingBag className="w-4 h-4 text-[#C8A45A]" /> Garments</span>
+                <span className="flex items-center gap-1.5"><Footprints className="w-4 h-4 text-[#C8A45A]" /> Shoes</span>
+                <span className="flex items-center gap-1.5"><Shirt className="w-4 h-4 text-[#C8A45A]" /> Garments</span>
                 <span className="flex items-center gap-1.5"><Briefcase className="w-4 h-4 text-[#C8A45A]" /> Leather Goods</span>
                 <span className="flex items-center gap-1.5"><Hand className="w-4 h-4 text-[#C8A45A]" /> Gloves</span>
               </div>
@@ -197,8 +197,8 @@ export const DigitalCardPage: React.FC = () => {
               <div>
                 <p className="text-[10px] uppercase tracking-widest text-slate-500 mb-3 font-semibold">Business Categories</p>
                 <div className="flex flex-col gap-3 text-xs text-slate-300 font-light">
-                  <span className="flex items-center gap-3 border border-white/5 p-2 rounded bg-black/20"><Shirt className="w-4 h-4 text-[#C8A45A]" /> Shoes</span>
-                  <span className="flex items-center gap-3 border border-white/5 p-2 rounded bg-black/20"><ShoppingBag className="w-4 h-4 text-[#C8A45A]" /> Garments</span>
+                  <span className="flex items-center gap-3 border border-white/5 p-2 rounded bg-black/20"><Footprints className="w-4 h-4 text-[#C8A45A]" /> Shoes</span>
+                  <span className="flex items-center gap-3 border border-white/5 p-2 rounded bg-black/20"><Shirt className="w-4 h-4 text-[#C8A45A]" /> Garments</span>
                   <span className="flex items-center gap-3 border border-white/5 p-2 rounded bg-black/20"><Briefcase className="w-4 h-4 text-[#C8A45A]" /> Leather Goods</span>
                   <span className="flex items-center gap-3 border border-white/5 p-2 rounded bg-black/20"><Hand className="w-4 h-4 text-[#C8A45A]" /> Gloves</span>
                 </div>
