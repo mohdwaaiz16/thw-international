@@ -74,35 +74,31 @@ export const DigitalCardPage: React.FC = () => {
         ========================================= */}
         <InteractiveCard>
           {/* Brand Header */}
-          <div className="flex items-center gap-6 mb-8 border-b border-[#C8A45A]/20 pb-8">
-            <div className="shrink-0 w-20 h-20">
-              {/* Using the newly uploaded, optimized THW Logo */}
-              <img 
-                src="/assets/logos/media_1788845790738.webp" 
-                alt="THW International Logo" 
-                width={80} 
-                height={80} 
-                className="w-full h-full object-contain drop-shadow-[0_0_10px_rgba(200,164,90,0.3)]"
-                loading="eager"
-                decoding="async"
-              />
-            </div>
-            <div>
-              <h2 className="text-2xl font-serif text-white tracking-widest mb-1 drop-shadow-md">THW INTERNATIONAL</h2>
-              <p className="text-[10px] text-[#C8A45A] uppercase tracking-[0.2em] font-medium">Integrated Leather Manufacturing Excellence</p>
-            </div>
+          <div className="flex flex-col items-center justify-center mb-8 border-b border-[#C8A45A]/20 pb-8 text-center min-h-[180px]">
+            {/* Using the newly processed transparent THW Logo */}
+            <img 
+              src="/assets/logos/thw-logo-clean.webp" 
+              alt="THW International Monogram" 
+              width={100} 
+              height={100} 
+              className="w-24 h-24 object-contain mb-4 drop-shadow-[0_0_15px_rgba(200,164,90,0.4)]"
+              loading="eager"
+              decoding="async"
+            />
+            <h2 className="text-2xl md:text-3xl font-serif text-[#C8A45A] tracking-widest mb-1 drop-shadow-md">THW INTERNATIONAL</h2>
+            <p className="text-[10px] text-slate-400 uppercase tracking-[0.3em] font-semibold mt-1">Integrated Leather Manufacturing Excellence</p>
           </div>
 
           {/* Contact Person */}
-          <div className="mb-8">
-            <h3 className="text-[#C8A45A] text-2xl font-serif drop-shadow-sm mb-1">PM Abdul Wajid</h3>
+          <div className="mb-8 text-center">
+            <h3 className="text-[#C8A45A] text-xl font-serif drop-shadow-sm mb-1">PM Abdul Wajid</h3>
           </div>
 
           {/* Business Details */}
           <div className="space-y-6 mb-10 flex-grow">
             <div>
-              <p className="text-[10px] uppercase tracking-widest text-slate-500 mb-3 font-semibold">Manufacturers of Finished Leather for:</p>
-              <div className="flex flex-wrap gap-4 text-sm text-slate-300 font-light">
+              <p className="text-[10px] uppercase tracking-widest text-slate-500 mb-3 font-semibold text-center">Manufacturers of Finished Leather for:</p>
+              <div className="flex flex-wrap justify-center gap-4 text-sm text-slate-300 font-light">
                 <span className="flex items-center gap-1.5"><Shirt className="w-4 h-4 text-[#C8A45A]" /> Shoes</span>
                 <span className="flex items-center gap-1.5"><ShoppingBag className="w-4 h-4 text-[#C8A45A]" /> Garments</span>
                 <span className="flex items-center gap-1.5"><Briefcase className="w-4 h-4 text-[#C8A45A]" /> Leather Goods</span>
@@ -110,14 +106,14 @@ export const DigitalCardPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center sm:text-left pt-4">
+              <div className="flex flex-col items-center sm:items-start">
                 <p className="text-[10px] uppercase tracking-widest text-slate-500 mb-2 font-semibold flex items-center gap-1.5"><MapPin className="w-3 h-3 text-[#C8A45A]" /> Tannery – I</p>
                 <p className="text-xs text-slate-400 font-light leading-relaxed">
                   123/N, Behind Vanitec,<br/>Valayampet,<br/>Vaniyambadi – 635752.
                 </p>
               </div>
-              <div>
+              <div className="flex flex-col items-center sm:items-start">
                 <p className="text-[10px] uppercase tracking-widest text-slate-500 mb-2 font-semibold flex items-center gap-1.5"><MapPin className="w-3 h-3 text-[#C8A45A]" /> Tannery – II</p>
                 <p className="text-xs text-slate-400 font-light leading-relaxed">
                   1475/A, P.J. Nehru Street,<br/>Cutchery Road,<br/>Vaniyambadi.
@@ -125,7 +121,7 @@ export const DigitalCardPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-center justify-center sm:justify-start gap-3 pt-4 border-t border-[#C8A45A]/10">
               <FileText className="w-4 h-4 text-[#C8A45A]" />
               <p className="text-sm text-slate-400 font-light"><span className="text-slate-500 text-[10px] uppercase tracking-widest mr-2">GSTIN:</span> 33AARPW3796L1ZN</p>
             </div>
@@ -162,18 +158,19 @@ export const DigitalCardPage: React.FC = () => {
         ========================================= */}
         <InteractiveCard>
           {/* Brand Header */}
-          <div className="flex flex-col items-center justify-center mb-8 border-b border-[#C8A45A]/20 pb-8 text-center min-h-[160px]">
-            {/* Using the newly uploaded, optimized AN NASSR Logo */}
+          <div className="flex flex-col items-center justify-center mb-8 border-b border-[#C8A45A]/20 pb-8 text-center min-h-[180px]">
+            {/* Using the newly processed transparent AN NASSR Logo */}
             <img 
-              src="/assets/logos/media_1788845417142.webp" 
-              alt="An Nassr Entrepreneur Logo" 
-              width={200} 
-              height={126} 
-              className="w-48 h-auto object-contain mb-4 drop-shadow-[0_0_10px_rgba(200,164,90,0.3)]"
+              src="/assets/logos/an-nassr-logo-clean.webp" 
+              alt="An Nassr Monogram" 
+              width={100} 
+              height={100} 
+              className="w-24 h-24 object-contain mb-4 drop-shadow-[0_0_15px_rgba(200,164,90,0.4)]"
               loading="eager"
               decoding="async"
             />
-            <p className="text-[10px] text-slate-400 uppercase tracking-[0.3em] font-semibold">Our Associate Concern</p>
+            <h2 className="text-2xl md:text-3xl font-serif text-[#C8A45A] tracking-widest mb-1 drop-shadow-md">AN NASSR ENTREPRENEUR</h2>
+            <p className="text-[10px] text-slate-400 uppercase tracking-[0.3em] font-semibold mt-1">Our Associate Concern</p>
           </div>
 
           {/* Business Details */}
