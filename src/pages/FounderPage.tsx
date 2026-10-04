@@ -101,7 +101,7 @@ export const FounderPage: React.FC = () => {
           
           <div className="flex flex-col md:flex-row gap-12 items-center md:items-start">
             {/* Image Column */}
-            <div className="w-full md:w-1/3 flex-shrink-0 relative group">
+            <div className="w-full md:w-1/3 flex-shrink-0 flex flex-col gap-6 relative group">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden border border-[#C8A45A]/30 shadow-[0_10px_30px_rgba(200,164,90,0.15)] relative">
                 <img 
                   src="/assets/images/pm-abdul-wajid.jpg" 
@@ -109,6 +109,19 @@ export const FounderPage: React.FC = () => {
                   className="w-full h-full object-cover filter brightness-105 contrast-105 transform group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0E0E0E]/80 via-transparent to-transparent pointer-events-none" />
+              </div>
+
+              {/* Social Links under Image */}
+              <div className="flex justify-center gap-6">
+                <a href="https://www.facebook.com/abdul.wajid.98988" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-[#C8A45A] transition-colors" aria-label="Facebook">
+                  <Facebook className="w-6 h-6" />
+                </a>
+                <a href="https://www.instagram.com/abdul_wajid_pm/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-[#C8A45A] transition-colors" aria-label="Instagram">
+                  <Instagram className="w-6 h-6" />
+                </a>
+                <a href="https://www.linkedin.com/in/pm-abdul-wajid-1a1223b3/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-[#C8A45A] transition-colors" aria-label="LinkedIn">
+                  <Linkedin className="w-6 h-6" />
+                </a>
               </div>
             </div>
 
@@ -145,18 +158,6 @@ export const FounderPage: React.FC = () => {
             </div>
           </div>
 
-          {/* Social Links */}
-          <div className="mt-12 flex justify-center gap-6 border-t border-white/10 pt-8">
-            <a href="https://www.facebook.com/abdul.wajid.98988" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-[#C8A45A] transition-colors" aria-label="Facebook">
-              <Facebook className="w-6 h-6" />
-            </a>
-            <a href="https://www.instagram.com/abdul_wajid_pm/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-[#C8A45A] transition-colors" aria-label="Instagram">
-              <Instagram className="w-6 h-6" />
-            </a>
-            <a href="https://www.linkedin.com/in/pm-abdul-wajid-1a1223b3/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-[#C8A45A] transition-colors" aria-label="LinkedIn">
-              <Linkedin className="w-6 h-6" />
-            </a>
-          </div>
         </div>
       </div>
     </main>
