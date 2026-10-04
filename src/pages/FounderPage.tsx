@@ -1,6 +1,6 @@
 import React from 'react';
 import { SEO } from '../components/SEO';
-import { Award, Briefcase, MapPin } from 'lucide-react';
+import { Award, Briefcase, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export const FounderPage: React.FC = () => {
@@ -25,6 +25,11 @@ export const FounderPage: React.FC = () => {
       ],
       alumniOf: [],
       url: 'https://www.thw-intl.co.in/pm-abdul-wajid',
+      sameAs: [
+        'https://www.facebook.com/abdul.wajid.98988',
+        'https://www.instagram.com/abdul_wajid_pm/',
+        'https://www.linkedin.com/in/pm-abdul-wajid-1a1223b3/'
+      ],
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Vaniyambadi',
@@ -121,6 +126,19 @@ export const FounderPage: React.FC = () => {
               <h3 className="text-sm uppercase tracking-widest text-slate-400 mb-1">Established</h3>
               <p className="text-white font-medium">THW Int. Since 2004</p>
             </div>
+          </div>
+
+          {/* Social Links */}
+          <div className="mt-12 flex justify-center gap-6 border-t border-white/10 pt-8">
+            <a href="https://www.facebook.com/abdul.wajid.98988" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-[#C8A45A] transition-colors" aria-label="Facebook">
+              <Facebook className="w-6 h-6" />
+            </a>
+            <a href="https://www.instagram.com/abdul_wajid_pm/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-[#C8A45A] transition-colors" aria-label="Instagram">
+              <Instagram className="w-6 h-6" />
+            </a>
+            <a href="https://www.linkedin.com/in/pm-abdul-wajid-1a1223b3/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-[#C8A45A] transition-colors" aria-label="LinkedIn">
+              <Linkedin className="w-6 h-6" />
+            </a>
           </div>
         </div>
       </div>
