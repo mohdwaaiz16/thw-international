@@ -1,9 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { SEO } from '../components/SEO';
 
 export const AnNassrPage: React.FC = () => {
   return (
     <main className="bg-[#0E0E0E] min-h-screen">
+      <SEO 
+        title="An Nassr Entrepreneur | Leather Manufacturer India | THW International"
+        description="An Nassr Entrepreneur, an associate concern of THW International, is a premium leather manufacturing company in Vaniyambadi, Tamil Nadu, India."
+        canonicalUrl="https://www.thw-intl.co.in/an-nassr"
+      />
       {/* 1. Hero Image Section */}
       <section className="relative w-full h-screen sm:h-[80vh] flex flex-col justify-center items-center overflow-hidden">
         {/* Background Images */}
@@ -84,8 +90,11 @@ export const AnNassrPage: React.FC = () => {
             <p className="text-slate-300 font-light leading-relaxed mb-6">
               AN NASSR ENTREPRENEUR is a distinguished leather manufacturing company dedicated to quality, craftsmanship, and reliable production. We blend traditional techniques with modern precision to deliver superior leather products to the global market.
             </p>
-            <p className="text-slate-300 font-light leading-relaxed">
+            <p className="text-slate-300 font-light leading-relaxed mb-6">
               Our commitment to excellence ensures that every piece of leather manufactured meets the highest standards of durability, finish, and aesthetic appeal.
+            </p>
+            <p className="text-slate-300 font-light leading-relaxed">
+              Guided by the vision of our Managing Director, <a href="/pm-abdul-wajid" className="text-[#C8A45A] hover:underline">PM Abdul Wajid</a>, we operate within the rich leather manufacturing ecosystem of Vaniyambadi, Tamil Nadu.
             </p>
           </div>
           <div className="relative h-[400px] md:h-[500px]">

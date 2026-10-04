@@ -1,5 +1,6 @@
 import React from 'react';
 import { Phone, Mail, Globe, MapPin, Briefcase, Download, FileText, Shirt, Footprints, Hand, MessageCircle } from 'lucide-react';
+import { SEO } from '../components/SEO';
 
 // --- Types ---
 interface ContactInfo {
@@ -54,6 +55,11 @@ const InteractiveCard: React.FC<{ children: React.ReactNode }> = ({ children }) 
 export const DigitalCardPage: React.FC = () => {
   return (
     <main className="bg-[#050505] min-h-screen pt-32 pb-24 relative overflow-hidden font-sans">
+      <SEO 
+        title="Digital Business Card | THW International"
+        description="Digital Business Cards for THW International and An Nassr Entrepreneur. Connect with our leather manufacturing specialists."
+        canonicalUrl="https://www.thw-intl.co.in/cards"
+      />
       {/* Lightweight CSS Background Ambience */}
       <div className="absolute inset-0 pointer-events-none opacity-20">
         <div className="absolute top-0 left-1/4 w-[500px] h-[500px] rounded-full bg-[radial-gradient(circle,rgba(200,164,90,0.4)_0%,transparent_70%)] blur-[100px]"></div>

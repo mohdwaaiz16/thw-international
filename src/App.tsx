@@ -6,6 +6,7 @@ import { Footer } from './components/Footer';
 import { HomePage } from './pages/HomePage';
 import { AnNassrPage } from './pages/AnNassrPage';
 import { DigitalCardPage } from './pages/DigitalCardPage';
+import { FounderPage } from './pages/FounderPage';
 
 export const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -26,6 +27,7 @@ export const App: React.FC = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/an-nassr" element={<AnNassrPage />} />
             <Route path="/cards" element={<DigitalCardPage />} />
+            <Route path="/pm-abdul-wajid" element={<FounderPage />} />
           </Routes>
 
           <Footer />

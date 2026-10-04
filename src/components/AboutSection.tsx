@@ -64,6 +64,9 @@ export const AboutSection: React.FC = () => {
               <p className="text-sm text-slate-300 leading-relaxed font-light">
                 THW International operates state-of-the-art tannery infrastructure in Vaniyambadi, turning premium raw goat and sheep skins into 100% genuine finished leather for luxury footwear, apparel, and leather goods.
               </p>
+              <p className="text-sm text-slate-300 leading-relaxed font-light">
+                Established by <a href="/pm-abdul-wajid" className="text-[#C8A45A] hover:underline">PM Abdul Wajid</a>, our Founder & Managing Director, we represent decades of manufacturing excellence in the Indian leather industry.
+              </p>
             </div>
 
             {/* Tannery Skins Image Card */}
