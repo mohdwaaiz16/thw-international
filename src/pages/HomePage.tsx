@@ -6,7 +6,6 @@ import { ProductsSection } from '../components/ProductsSection';
 import { ManufacturingSection } from '../components/ManufacturingSection';
 import { SustainabilitySection } from '../components/SustainabilitySection';
 import { ContactSection } from '../components/ContactSection';
-import { Footer } from '../components/Footer';
 import { SEO } from '../components/SEO';
 
 export const HomePage: React.FC = () => {
@@ -31,7 +30,6 @@ export const HomePage: React.FC = () => {
         <SustainabilitySection />
         <ContactSection />
       </main>
-      <Footer />
     </>
   );
 };
