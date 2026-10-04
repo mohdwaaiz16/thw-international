@@ -25,6 +25,7 @@ export const FounderPage: React.FC = () => {
       ],
       alumniOf: [],
       url: 'https://www.thw-intl.co.in/pm-abdul-wajid',
+      image: 'https://www.thw-intl.co.in/assets/images/pm-abdul-wajid.jpg',
       sameAs: [
         'https://www.facebook.com/abdul.wajid.98988',
         'https://www.instagram.com/abdul_wajid_pm/',
@@ -76,11 +77,12 @@ export const FounderPage: React.FC = () => {
         title="PM Abdul Wajid | Founder of THW International & MD of AN NASSR"
         description="PM Abdul Wajid is the Founder and Managing Director of THW International and Managing Director of AN NASSR Entrepreneur, operating in India's leather manufacturing industry."
         canonicalUrl="https://www.thw-intl.co.in/pm-abdul-wajid"
+        image="https://www.thw-intl.co.in/assets/images/pm-abdul-wajid.jpg"
         schema={founderSchema}
         type="profile"
       />
 
-      <div className="max-w-4xl mx-auto px-6 relative z-10">
+      <div className="max-w-5xl mx-auto px-6 relative z-10">
         
         {/* Header Section */}
         <div className="flex flex-col items-center text-center mb-16">
@@ -97,16 +99,31 @@ export const FounderPage: React.FC = () => {
         <div className="glass-luxury rounded-3xl p-8 md:p-12 border border-[#C8A45A]/20 shadow-2xl relative">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-transparent via-[#C8A45A] to-transparent"></div>
           
-          <div className="prose prose-invert prose-lg max-w-none text-slate-300 font-light leading-relaxed">
-            <p>
-              PM Abdul Wajid is a prominent entrepreneur in the Indian leather industry. Based in Vaniyambadi, Tamil Nadu—a renowned leather manufacturing hub—he has established a legacy of excellence and craftsmanship.
-            </p>
-            <p>
-              He is the Founder and Managing Director of <strong>THW International</strong>, a company established in 2004 that specializes in manufacturing premium goat and sheep finished leather. Under his leadership, THW International has grown into a trusted supplier of genuine finished leather for the global market.
-            </p>
-            <p>
-              Additionally, PM Abdul Wajid serves as the Managing Director of <strong>AN NASSR Entrepreneur</strong>, an associate concern dedicated to furthering the standards of leather processing and manufacturing in the region.
-            </p>
+          <div className="flex flex-col md:flex-row gap-12 items-center md:items-start">
+            {/* Image Column */}
+            <div className="w-full md:w-1/3 flex-shrink-0 relative group">
+              <div className="aspect-[3/4] rounded-2xl overflow-hidden border border-[#C8A45A]/30 shadow-[0_10px_30px_rgba(200,164,90,0.15)] relative">
+                <img 
+                  src="/assets/images/pm-abdul-wajid.jpg" 
+                  alt="PM Abdul Wajid, Founder and Managing Director of THW International and Managing Director of AN NASSR Entrepreneur" 
+                  className="w-full h-full object-cover filter brightness-105 contrast-105 transform group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0E0E0E]/80 via-transparent to-transparent pointer-events-none" />
+              </div>
+            </div>
+
+            {/* Text Column */}
+            <div className="w-full md:w-2/3 prose prose-invert prose-lg max-w-none text-slate-300 font-light leading-relaxed">
+              <p>
+                PM Abdul Wajid is a prominent entrepreneur in the Indian leather industry. Based in Vaniyambadi, Tamil Nadu—a renowned leather manufacturing hub—he has established a legacy of excellence and craftsmanship.
+              </p>
+              <p>
+                He is the Founder and Managing Director of <strong>THW International</strong>, a company established in 2004 that specializes in manufacturing premium goat and sheep finished leather. Under his leadership, THW International has grown into a trusted supplier of genuine finished leather for the global market.
+              </p>
+              <p>
+                Additionally, PM Abdul Wajid serves as the Managing Director of <strong>AN NASSR Entrepreneur</strong>, an associate concern dedicated to furthering the standards of leather processing and manufacturing in the region.
+              </p>
+            </div>
           </div>
 
           {/* Quick Facts */}
